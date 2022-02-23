@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .form-group {
+    @apply mb-6 flex flex-col;
+  }
+  .form-group-label {
+    @apply mb-1 text-sm font-normal uppercase;
+  }
+
+  .form-group-bordered {
+    @apply relative grid grid-cols-1 flex-col gap-2 border border-gray-900 p-1 pt-8 lg:grid-cols-2;
+  }
+  .form-group-bordered-label {
+    @apply absolute -top-3 left-2 mb-1 bg-white px-2 text-sm font-normal uppercase;
+  }
+
+  .form-group-close-btn {
+    @apply bg-third absolute top-0 right-0 mt-1 mr-1 h-5 px-2 text-xs font-light text-white;
+  }
+}

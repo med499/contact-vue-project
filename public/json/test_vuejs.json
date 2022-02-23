@@ -1,0 +1,26 @@
+{
+  "tel_cat": {
+    "Mobile perso": 1,
+    "Mobile pro": 2,
+    "Fixe pro": 3,
+    "Fixe perso": 4
+  },
+  "address_cat": [
+    {
+      "label": "Adresse perso",
+      "id": 1
+    },
+    {
+      "label": "Adresse pro",
+      "id": 5
+    },
+    {
+      "label": "Adresse facturation",
+      "id": 87
+    },
+    {
+      "label": "Adresse perso secondaire",
+      "id": 14
+    }
+  ]
+}
